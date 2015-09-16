@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &162602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 462602}
+  - 114: {fileID: 11462602}
+  m_Layer: 0
+  m_Name: AtomSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &462602
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.45933652, y: 100, z: -.942211628}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11462602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f65136a8b2ccf40999fa00269a14d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  default_atom: {fileID: 104228, guid: 0bc9c4b092af6954aa2bf8ae758f23a7, type: 2}
+  carbon: {fileID: 124982, guid: 9b2caf39b8f30cb4c8a1fa3cf1e0d242, type: 2}
+  oxygen: {fileID: 104228, guid: 929328bc048555d46b9701ba1fdba07d, type: 2}
+  iron: {fileID: 104228, guid: 035f51b26e6b2994aa4330b4c6cf7031, type: 2}
+  nitrogen: {fileID: 104228, guid: d14dbf4d42c198a41a1eea5446aa76fd, type: 2}
+  hydrogen: {fileID: 153600, guid: e26d8bafb2ef3154090026a60d1ba4ae, type: 2}
+  binding: {fileID: 172380, guid: 99cd942bce84f6a42a3865bdec128825, type: 2}
+  doubleBinding: {fileID: 132868, guid: 2dde06f67a4a4d340af8fb49ac4c641f, type: 2}
+  dot: {fileID: 178266, guid: 6077cd14c6ccf0a4dbeb85bf2baacd57, type: 2}
+  hBond: {fileID: 0}
+  shiny: {fileID: 2100000, guid: a6ff2c9d1ea92d843b483255b8daf898, type: 2}
+  ribbonShowing: 0
+  bondsShowing: 0
+  alphaShowing: 0
+  betaShowing: 0
+  colorList: []
+  bsList: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 162602}
+  m_IsPrefabParent: 1
