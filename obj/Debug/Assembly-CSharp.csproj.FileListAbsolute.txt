@@ -1,0 +1,1 @@
+C:\ovr_sdk_win_0.4.4\OculusSDK\Samples\MolyRift2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
