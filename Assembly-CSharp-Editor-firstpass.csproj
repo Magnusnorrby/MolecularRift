@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{19066389-15EA-13E6-92CA-70499F522DB8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Editor\KinectCopyPluginDataHelper.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\KinectVisualGestureBuilderPostBuildCopyPluginData.cs" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\ViewModel\left.p.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\EvalModel\right.p.txt" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\Shaders\UnityVC\StandardVC.shader" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\EvalModel\right.p.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\Expression\NuiExpressionModelManifest.txt" />
+     <None Include="Assets\Shaders\UnityVC\StandardSpecularVC.shader" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\ViewModel\front.p.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\EvalModel\Front.p.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\MouthModel\lopen.p.txt" />
+     <None Include="Assets\FileBrowser\readme.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\Expression\NuiExpressionModelManifest.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\ViewModel\right.p.txt" />
+     <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\EvalModel\Front.p.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\EvalModel\left.p.txt" />
+     <None Include="Assets\VRGUI\Shaders\VRGUITransparentOverlayShader.shader" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\MouthModel\close.p.txt" />
+     <None Include="Assets\Shaders\Vertex.shader" />
+     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\MouthModel\MeanShapes.txt" />
+     <None Include="Assets\PrimitivePlus\Documentation\ReadMe.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\MouthModel\lopen.p.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\ViewModel\right.p.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\ViewModel\front.p.txt" />
+     <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_shape_classifier.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\MouthModel\MeanShapes.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_appearance_classifier.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\MouthModel\close.p.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\EvalModel\left.p.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_F.txt" />
+     <None Include="Assets\Shaders\UnityVC\UnityVC.cginc" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HLP.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\ViewModel\left.p.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_shape_classifier.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_F.txt" />
+     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\Plugins\x86\donotdelete.txt" />
+     <None Include="Assets\Plugins\x86\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HLP.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_appearance_classifier.txt" />
+     <None Include="Assets\Plugins\x86_64\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="OBDotNet">
+ <HintPath>C:/Users/Mange/Downloads/MolyRift2/Assets/Plugins/OBDotNet.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/blackberryplayer/UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{62BB3975-BB25-3AEB-4932-F7F108917224}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
