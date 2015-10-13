@@ -3,5 +3,5 @@ by Magnus Norrby and Jonas Boström at AstraZeneca CVMD Sweden
 Date: 2015-08-31. 
 Contact details: mange.norrby@gmail.com and dr.jonas.bostrom@gmail.com
 
-The source code will be uploaded as soon as Magnus has got internet access 
-in his new hometown, Stockholm. Should be very soon : )
+![Example view](Example_view.png)
+
