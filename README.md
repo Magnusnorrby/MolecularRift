@@ -3,5 +3,7 @@ by Magnus Norrby and Jonas Boström at AstraZeneca CVMD Sweden
 Date: 2015-08-31. 
 Contact details: mange.norrby@gmail.com and dr.jonas.bostrom@gmail.com
 
-![Example view](Example_view.png)
+![Example view](/Images/Example_view.png)
+
+![Menu](/Images/Example_menu.png)
 
