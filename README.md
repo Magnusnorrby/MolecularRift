@@ -3,6 +3,8 @@ by Magnus Norrby and Jonas Boström at AstraZeneca CVMD Sweden
 Date: 2015-08-31. 
 Contact details: mange.norrby@gmail.com and dr.jonas.bostrom@gmail.com
 
+Launch the program using MolyRift2_DirectToRift.exe
+
 ![Example view](/Images/Example_view.png)
 
 ![Menu](/Images/Example_menu.png)
@@ -11,7 +13,7 @@ Contact details: mange.norrby@gmail.com and dr.jonas.bostrom@gmail.com
 * Microsoft Kinect v2 for Windows
 * Oculus Rift Head Mount Display DK 2
 * Oculus Positional Tracker DK 2
-* Unity 5 
+* Unity v5.0.0 
 * MonoDevelop with MonoC# compiler
 * PC with:  
 * Windows 8 or 8.1 (x64) 
