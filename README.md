@@ -14,6 +14,7 @@ Launch the program using MolyRift2_DirectToRift.exe
 * Oculus Rift Head Mount Display DK 2
 * Oculus Positional Tracker DK 2
 * Unity v5.0.0 
+* OpenBabel
 * MonoDevelop with MonoC# compiler
 * PC with:  
 * Windows 8 or 8.1 (x64) 
