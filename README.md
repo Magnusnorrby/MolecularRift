@@ -3,6 +3,8 @@ by Magnus Norrby and Jonas Boström at AstraZeneca CVMD Sweden
 Date: 2015-08-31. 
 Contact details: mange.norrby@gmail.com and dr.jonas.bostrom@gmail.com
 
+VR Molecules for Molbile: http://educhem-vr.com/
+
 Version 2: https://github.com/JBostrom/MolecularRiftv2
 
 Launch the program using MolyRift2_DirectToRift.exe
